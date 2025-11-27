@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Lohan Almeida</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- LINK CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="https://github.com/LohanAlmeida.png" alt="Foto de Lohan Almeida" />
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <button id="modeToggle">🌙</button>
+
+  <div id="particles"></div>
+
+  <section class="hero">
+    <h1>Olá, eu sou <br>
+      Lohan Almeida</h1>
+    <p>Desenvolvedor Front-end & Web Designer Moderno</p>
+  </section>
+
+  <section class="section" id="sobre">
+    <h2>Sobre mim</h2>
+    <p class="sobre">
+      Sou um desenvolvedor Front-end focado em criar interfaces modernas, rápidas e impactantes.
+      Gosto de minimalismo, animações fluidas e experiências elegantes.
+    </p>
+  </section>
+
+  <section class="section" id="projetos">
+    <h2>Projetos</h2>
+
+    <!-- CARROSSEL 3D -->
+    <div class="carousel3d">
+      <button class="carousel-btn carousel-prev">❮</button>
+      <div class="carousel-track" id="carouselTrack"></div>
+      <button class="carousel-btn carousel-next">❯</button>
+    </div>
+
+    <!-- CARDS -->
+    <div class="cards" id="projectCards"></div>
+  </section>
+
+  <section class="section" id="contato">
+    <h2>Contato</h2>
+    <p>Email: <strong>almeida.lohandev@gmail.com</strong></p>
+    <p>GitHub: <a style="color:#2D6BFF" href="https://github.com/LohanAlmeida">github.com/LohanAlmeida</a></p>
+    <p>Instagram: <a style="color:#2D6BFF" href="https://www.instagram.com/almeida.lohan01">@almeida.lohan01</a></p>
+  </section>
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+</body>
+
+</html>
